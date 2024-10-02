@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const MainBanner = () => {
   return (
-    <div className="flex flex-col justify-end bg-white">
+    <div id="Home" className="flex flex-col justify-end bg-white">
       <div className="flex flex-row justify-between h-full gap-2">
         <div className="w-1/2 p-10">
           <h1 className="text-[48px] font-bold text-gray-800">

@@ -1,8 +1,10 @@
+import Link from "next/link";
 import React from "react";
 
-const MenuItemWithHover = ({ icon, title, onClick, isActive }) => {
+const MenuItemWithHover = ({ icon, title, onClick, isActive,link }) => {
   return (
-    <button
+    <Link
+      href={`#${link}`}
       onClick={onClick}
       className="flex items-center justify-center mt-[90%]"
     >
@@ -16,7 +18,7 @@ const MenuItemWithHover = ({ icon, title, onClick, isActive }) => {
           {title}
         </div>
       </div>
-    </button>
+    </Link>
   );
 };
 
