@@ -5,7 +5,7 @@ import Image from "next/image";
 const ImageNameTitle = () => {
   return (
     <div>
-      <div className="mt-[10%] w-[200px] mx-auto items-center text-center justify-center">
+      <div className="mt-[10%] w-[200px] mx-auto items-start text-center justify-center">
         <Image src={"/profile-pic.png"} width={200} height={200} />
       </div>
       <p className="text-[18px] font-bold">Beshoy Mark El-Mallah</p>

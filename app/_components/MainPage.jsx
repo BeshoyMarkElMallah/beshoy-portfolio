@@ -9,7 +9,7 @@ const ContactMe = () => <div id="ContactMe">Contact Me Section</div>;
 
 const MainPage = () => {
   return (
-    <div className="h-full mx-4 ">
+    <div className="h-full mx-4">
       <MainBanner />
       <ServicesPage />
       <EducationPage />
