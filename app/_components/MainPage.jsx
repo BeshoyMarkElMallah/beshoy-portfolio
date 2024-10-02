@@ -1,8 +1,8 @@
 import React from "react";
-import MainBanner from "./MainBanner";
-import ServicesPage from "./ServicesPage";
+import MainBanner from "./main/MainBanner";
+import ServicesPage from "./services/ServicesPage";
+import EducationPage from "./EducationPage";
 
-const Education = () => <div id="Education">Education Section</div>;
 const WorkHistory = () => <div id="WorkHistory">Work History Section</div>;
 const Portfolio = () => <div id="Portfolio">Portfolio Section</div>;
 const ContactMe = () => <div id="ContactMe">Contact Me Section</div>;
@@ -12,7 +12,7 @@ const MainPage = () => {
     <div className="h-full mx-4 ">
       <MainBanner />
       <ServicesPage />
-      <Education />
+      <EducationPage />
       <WorkHistory />
       <Portfolio />
       <ContactMe />

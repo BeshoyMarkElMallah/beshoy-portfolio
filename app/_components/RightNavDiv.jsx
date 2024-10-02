@@ -1,6 +1,6 @@
 import React from "react";
 import { RiContrast2Fill } from "react-icons/ri";
-import Menu from "./Menu";
+import Menu from "./sides/right/Menu";
 
 const RightNavDiv = () => {
   return (
