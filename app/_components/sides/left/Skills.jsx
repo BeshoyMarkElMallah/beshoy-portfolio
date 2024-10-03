@@ -14,11 +14,11 @@ const Skills = () => {
       <ItemWithPercentage item="Tensorflow" percentage={70} />
       <Progressbar value={70} />
 
-      <ItemWithPercentage item="Python" percentage={100} />
-      <Progressbar value={100} />
+      <ItemWithPercentage item="Python" percentage={97} />
+      <Progressbar value={97} />
 
-      <ItemWithPercentage item="Problem Solving" percentage={100} />
-      <Progressbar value={100} />
+      <ItemWithPercentage item="Problem Solving" percentage={95} />
+      <Progressbar value={95} />
 
       <ItemWithPercentage item="Machine Learning" percentage={50} />
       <Progressbar value={50} />

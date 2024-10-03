@@ -2,20 +2,21 @@ import React from "react";
 import MainBanner from "./main/MainBanner";
 import ServicesPage from "./services/ServicesPage";
 import EducationPage from "./EducationPage";
-
-const WorkHistory = () => <div id="WorkHistory">Work History Section</div>;
-const Portfolio = () => <div id="Portfolio">Portfolio Section</div>;
-const ContactMe = () => <div id="ContactMe">Contact Me Section</div>;
+import WorkHistory from "./WorkHistory";
+import PortfolioPage from "./PortfolioPage";
+import ContactPage from "./ContactPage";
+import Footer from "./Footer";
 
 const MainPage = () => {
   return (
-    <div className="h-full mx-4">
+    <div className="h-full lg:mx-4 md:mx-4 sm:mx-0">
       <MainBanner />
       <ServicesPage />
       <EducationPage />
       <WorkHistory />
-      <Portfolio />
-      <ContactMe />
+      <PortfolioPage />
+      <ContactPage/>
+      <Footer/>
     </div>
   );
 };
