@@ -8,7 +8,7 @@ import Skills from "./sides/left/Skills";
 import CvButton from "./sides/left/CvButton";
 const LeftCvDiv = () => {
   return (
-    <div className="flex items-start justify-center h-full p-4 text-center bg-white w-60 ">
+    <div className="flex items-start justify-center h-full p-4 text-center bg-white w-60 dark:bg-gray-800 dark:text-white ">
       <div className="text-center">
         <ImageNameTitle />
         <SocialRow />

@@ -4,7 +4,7 @@ import ItemWithPercentage from "./ItemWithPercentage";
 const Languages = () => {
   return (
     <div>
-      <h2 className="mb-3 text-start text-[18px]">Languages</h2>
+      <h2 className="mb-3 text-start text-[18px] dark:text-white">Languages</h2>
       <ItemWithPercentage item="Arabic" percentage={100}/>
       <Progressbar value={100} />
 

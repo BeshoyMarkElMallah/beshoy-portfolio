@@ -7,11 +7,11 @@ import { IoMailSharp } from "react-icons/io5";
 
 const ContactPage = () => {
   return (
-    <div id="ContactMe" className="items-center justify-center w-full ">
+    <div id="ContactMe" className="items-center justify-center w-full dark:bg-gray-900 dark:text-white ">
       <div className="h-20"></div>
-      <div className="flex flex-row justify-around">
-        <div className="flex flex-col w-3/4 m-5">
-          <h2 className="font-bold text-[32px] text-gray-700">
+      <div className="flex flex-row justify-around dark:bg-gray-900 dark:text-white">
+        <div className="flex flex-col w-3/4 m-5 dark:bg-gray-900 dark:text-white">
+          <h2 className="font-bold text-[32px] text-gray-700 dark:bg-gray-900 dark:text-white">
             Leave Us Your Info
           </h2>
           <div className="h-10"></div>
@@ -20,7 +20,7 @@ const ContactPage = () => {
           </div>
         </div>
         <div className="flex flex-col justify-start w-2/4 m-5">
-          <h2 className="font-bold text-[32px] text-gray-700">
+          <h2 className="font-bold text-[32px] text-gray-700 dark:bg-gray-900 dark:text-white">
             Contact Information
           </h2>
           <div className="h-5"></div>

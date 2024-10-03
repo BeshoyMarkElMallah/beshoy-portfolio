@@ -9,7 +9,7 @@ const MenuItemWithHover = ({ icon, title, onClick, isActive,link }) => {
       className="flex items-center justify-center mt-[90%]"
     >
       <div
-        className={`relative flex items-center justify-center p-3 rounded-full group ${
+        className={`relative flex items-center justify-center p-3 dark:text-black rounded-full group ${
           isActive ? "bg-yellow-500" : "bg-gray-300"
         }`}
       >

@@ -6,15 +6,15 @@ import { FaArrowRight } from "react-icons/fa";
 const MainBanner = () => {
   return (
     <div id="Home" className="flex flex-col justify-end bg-white">
-      <div className="flex flex-row justify-between h-full gap-2">
-        <div className="w-1/2 p-10">
-          <h1 className="text-[48px] font-bold text-gray-800">
+      <div className="flex flex-row justify-between h-full gap-2 dark:bg-gray-900 dark:text-white">
+        <div className="w-1/2 p-10 ">
+          <h1 className="text-[48px] font-bold text-gray-800 dark:bg-gray-900 dark:text-white">
             I'm Beshoy Mark
           </h1>
-          <h1 className="text-[48px] font-bold text-gray-800">
-            <span className="text-yellow-500">AI</span> Researcher
+          <h1 className="text-[48px] font-bold text-gray-800 dark:bg-gray-900 dark:text-white">
+            <span className="text-yellow-500 ">AI</span> Researcher
           </h1>
-          <p className="text-justify text-gray-600">
+          <p className="text-justify text-gray-600 dark:bg-gray-900 dark:text-white">
             A Software developer & Programming Instructor with 3+ years of
             experience in developing mobile applications with flutter, 1+ years
             in developing full stack web applications, 4+ years of experience

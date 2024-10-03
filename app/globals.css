@@ -29,3 +29,8 @@ body {
   /* transition: transform 0.3s ease-in-out; */
   transform: translateY(10px);
 }
+
+.dark body {
+  background-color:rgb(17, 24, 39) ;
+  color: rgb(255, 255, 255);
+}

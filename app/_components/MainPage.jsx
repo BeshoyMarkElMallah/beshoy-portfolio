@@ -9,7 +9,7 @@ import Footer from "./Footer";
 
 const MainPage = () => {
   return (
-    <div className="h-full lg:mx-4 md:mx-4 sm:mx-0">
+    <div className="h-full lg:mx-4 md:mx-4 sm:mx-0 dark:bg-gray-900 dark:text-white">
       <MainBanner />
       <ServicesPage />
       <EducationPage />
