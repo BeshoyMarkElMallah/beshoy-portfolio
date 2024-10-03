@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -20,12 +21,22 @@ const MainBanner = () => {
             being a Programming and Robotics Instructor, 1+ years of experience
             as a Data Analyst, 2+ years of experience as an AI Engineer
           </p>
-          <button className="flex items-center justify-center gap-2 px-6 py-3 mt-4 text-black bg-yellow-500 rounded cursor-pointer">
-            Hire Me
-            <FaArrowRight size={15} />
-          </button>
+          <Link
+            href="https://drive.google.com/file/d/1-8cSjTVRwEYLumvBkv6SMUI-WqUtTqSC/view?usp=sharing"
+            target="_blank"
+          >
+            <button className="flex items-center justify-center gap-2 px-6 py-3 mt-4 text-black bg-yellow-500 rounded cursor-pointer hover:bg-yellow-600">
+              Hire Me
+              <FaArrowRight size={15} />
+            </button>
+          </Link>
         </div>
-        <Image src="/profile-pic-blank-rect.png" className="w-auto" width={300} height={300} />
+        <Image
+          src="/profile-pic-blank-rect.png"
+          className="w-auto"
+          width={300}
+          height={300}
+        />
       </div>
     </div>
   );
